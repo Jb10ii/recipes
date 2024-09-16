@@ -1,4 +1,4 @@
-const students = [] 
+const recipe = [] 
 
 for (let i = 0; i < 3; i++) {
     students.push(prompt(`Enter the name of your recipe ${i+1}`))
@@ -7,4 +7,4 @@ for (let i = 0; i < 3; i++) {
     
 }
 
-console.log(students);
+console.log(recipe);
